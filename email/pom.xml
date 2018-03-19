@@ -16,6 +16,17 @@
     
     <dependencies>
         <dependency>
+            <groupId>com.dac</groupId>
+            <artifactId>shared</artifactId>
+            <version>1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
