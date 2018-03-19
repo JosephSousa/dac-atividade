@@ -8,7 +8,6 @@
     <modules>
         <module>creditcard</module>
         <module>email</module>
-        <module>order</module>
         <module>shared</module>
     </modules>
     <properties>
