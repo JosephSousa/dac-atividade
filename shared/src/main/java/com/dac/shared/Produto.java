@@ -1,4 +1,4 @@
-package edu.ifpb.dac;
+package com.dac.shared;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

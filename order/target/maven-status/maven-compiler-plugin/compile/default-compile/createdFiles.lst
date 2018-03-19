@@ -1,0 +1,7 @@
+edu/ifpb/dac/Cliente.class
+edu/ifpb/dac/Pedido.class
+edu/ifpb/dac/controller/ControladorPedido.class
+edu/ifpb/dac/controller/ControladorCliente.class
+edu/ifpb/dac/Produto.class
+edu/ifpb/dac/EnviarEmail.class
+.netbeans_automatic_build
