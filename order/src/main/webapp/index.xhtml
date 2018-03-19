@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        
+        
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Produtos</h4></li>
+          <h:dataTable value="#{controladorPedido.produtos}" var="produto">
+                <h:column>
+                    <li class="collection-item"><div><h:outputText value="#{produto.descricao}"></h:outputText><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                </h:column>
+            </h:dataTable>
+          
+        </ul>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    </body>
+</html>
